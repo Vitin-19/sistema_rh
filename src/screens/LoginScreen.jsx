@@ -1,8 +1,12 @@
+import LoginContainer from "../components/loginContainer";
+import "../App.css"
+
 const LoginScreen = () => {
 
 
     return(
-        <div>
+        <div className="background">
+            <LoginContainer/>
         </div>
     )
 }
