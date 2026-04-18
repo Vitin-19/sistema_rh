@@ -1,3 +1,5 @@
+@import "./styles/loginScreen.css";
+
 .background{
     background-color: #FFD86E;
     display: flex;
@@ -5,15 +7,4 @@
     align-items: center;
     height: 100%;
     width: 100%;
-}
-
-.loginContainer{
-    background-color: #FFC067;
-    display: flex;
-    border-radius: 10;
-    border-color: transparent;
-}
-
-.title{
-    font-family: 'Times New Roman', Times, serif Serif, serif;
 }
