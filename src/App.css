@@ -1,5 +1,5 @@
 @import "./styles/loginScreen.css";
-
+@import "./styles/SolicitacaoResponsavelScreen.css";
 .background{
     background-color: #FFD86E;
     display: flex;

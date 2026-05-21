@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import './App.css'
 import LoginScreen from './screens/LoginScreen';
+import SolicitacaoResponsavelScreen from './screens/SolicitacaoResponsavelScreen';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<LoginScreen/>}/>
+        <Route path='/' element={<SolicitacaoResponsavelScreen/>}/>
       </Routes>
     </BrowserRouter>
   )
