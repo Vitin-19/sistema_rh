@@ -8,9 +8,23 @@ const listaSolicit = [
         id: 1,
         professor: "Fulano",
         disciplina: "Física",
+        status: "Aceito",
+        documento: "Solicitação 3"
+    },
+    {
+        id: 1,
+        professor: "Fulano",
+        disciplina: "Física",
+        status: "Rejeitado",
+        documento: "Solicitação 2"
+    },
+    {
+        id: 1,
+        professor: "Fulano",
+        disciplina: "Física",
         status: "Rejeitado",
         documento: "Solicitação 1"
-    }
+    },
 ];
 
 const SolicitacaoProfessorContainer = () => {
@@ -19,24 +33,22 @@ const SolicitacaoProfessorContainer = () => {
 
     return (
         <div>
-            <header>
-                <h1>Suas Solicitações</h1>
+            <header className="titleProfessor">
+                <h1>SUAS SOLICITAÇÕES</h1>
             </header>
 
-            <div className="SolicitProfContainer">
-                <section>
-                    {solicitacoes.map((item) => (
-                        <div key={item.id} className="card-solicitacao">
-                            <div className="informacoes">
-                                <h2>Status: {item.status}</h2>
-                                <h2>Documento: {item.documento}</h2>
-                            </div>
+            <section className="SolicitProfContainer">
+                {solicitacoes.map((item) => (
+                    <div key={item.id} className="card-solicitacao">
+                        <div className="informacoes">
+                            <h2>Status: {item.status}</h2>
+                            <h2>Documento: {item.documento}</h2>
                         </div>
-                    ))}
-                </section>
-            </div>
+                    </div>
+                ))}
+            </section>
             
-            <div>
+            <div className="container-botao">
                 <button className="abrir-chamado"> Abrir chamado </button>
             </div>
         </div>

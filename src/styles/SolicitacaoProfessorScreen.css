@@ -1,8 +1,56 @@
+.titleProfessor {
+    font-family: var(--titleFont);
+    font-size: 24px;
+    margin: 20px 0;
+    text-align: center;
+}
+
 .SolicitProfContainer {
-    background-color: #ffc067;
     display:flex;
     flex-direction: column;
+    width: 70vw;
     align-items: center;
+    padding: 20px 0;
+    height: 60vh;
+    overflow-y: auto;
+}
+
+.card-solicitacao {
+    background-color: #ffc067;
+    display: flex;
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 75%;
+    flex-shrink: 0;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.container-botao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.abrir-chamado {
+    background-color: #D21404;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 250px;
 }
