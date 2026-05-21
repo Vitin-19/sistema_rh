@@ -1,15 +1,13 @@
 
-import "../App.css"
+import "../App.css";
 import SolicitacaoResponsavelContainer from "../components/SolicitacaoResponsavelContainer";
 
 const SolicitacaoResponsavelScreen = () => {
+  return (
+    <div className="background">
+      <SolicitacaoResponsavelContainer />
+    </div>
+  );
+};
 
-
-    return(
-        <div className="background">
-            <SolicitacaoResponsavelContainer/>
-        </div>
-    )
-}
-
-export default SolicitacaoResponsavelContainer;
+export default SolicitacaoResponsavelScreen;
