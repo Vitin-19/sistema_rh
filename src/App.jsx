@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<SolicitacoesProfessorScreen/>}/>
+        <Route path='/' element={<LoginScreen/>}/>
       </Routes>
     </BrowserRouter>
   )
