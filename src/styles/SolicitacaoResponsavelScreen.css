@@ -39,6 +39,7 @@
 .card-solicitacao {
   display: flex;
   flex-direction: space-between;
+  justify-content: space-between;
   border-radius: 18px;
   padding: 21px;
   width: 100%;
@@ -50,36 +51,45 @@
 
   box-shadow: 0 16px 30px rgba(0, 0, 0, 0.12);
 }
-
-.informacoes h2 {
-  margin: 0;
-  font-size: 0.95rem;
-  color: #444;
-  letter-spacing: 0.02em;
+.informacoes{
+  width:60%;
+  display: flex;
+  justify-content: space-between;
 }
+.informacoes button {
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  justify-content: space-between;
+}
+
 
 .informacoes p {
-  margin: 0.35rem 0 1rem;
-  font-size: 1.05rem;
+  
+  font-size: 20px;
   color: #1f1f1f;
 }
-
+.TextoProfessor{
+  display: flex;
+  justify-content: space-around;
+}
+.TextoProfessor h2 {
+  font-size: 20px;
+}
 .card-actions {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin-top: 1rem;
+  justify-content: space-between;
+  width: 33%;
+  
 }
 
 .card-actions button {
-  flex: 1 1 120px;
   border: none;
-  border-radius: 12px;
-  padding: 0.95rem 1rem;
-  font-size: 0.96rem;
-  font-weight: 700;
-  cursor: pointer;
-  transition: transform 0.15s ease, filter 0.15s ease;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  justify-content: space-between;
 }
 
 .button-approve {
