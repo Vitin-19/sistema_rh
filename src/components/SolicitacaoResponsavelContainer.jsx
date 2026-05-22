@@ -50,13 +50,13 @@ const SolicitacaoResponsavelContainer = () => {
   };
 
   return (
-    <div className="RespSolicContainer">
-      <header className="resp-header">
+  <div className="main">
+    <header className="resp-header">
         <div>
           <h1>Solicitações Gerais</h1>
         </div>
       </header>
-
+    <div className="RespSolicContainer">
       <section className="cards-grid">
         {solicitacoes.map((item) => (
           <SolicitacaoResponsavelCard
@@ -70,6 +70,7 @@ const SolicitacaoResponsavelContainer = () => {
         ))}
       </section>
     </div>
+  </div>
   );
 };
 

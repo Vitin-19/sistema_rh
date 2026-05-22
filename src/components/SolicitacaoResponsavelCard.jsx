@@ -3,7 +3,7 @@ const SolicitacaoResponsavelCard = ({ professor,onApprove, onReject, onView }) =
     <article className="card-solicitacao">
       <div className="informacoes">
         <div className="TextoProfessor">
-          <h2>Professor</h2>
+          <h2>Professor: </h2>
           <p>{professor}</p>
         </div>
         <button className="button-view" onClick={onView}>
