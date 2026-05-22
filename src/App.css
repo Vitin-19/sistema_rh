@@ -1,5 +1,7 @@
 @import "./styles/loginScreen.css";
 @import "./styles/SolicitacaoResponsavelScreen.css";
+@import "./styles/SolicitacaoProfessorScreen.css";
+
 .background{
     background-color: #FFD86E;
     display: flex;

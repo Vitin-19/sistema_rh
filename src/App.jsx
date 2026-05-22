@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import './App.css'
-import LoginScreen from './screens/LoginScreen';
-import SolicitacaoResponsavelScreen from './screens/SolicitacaoResponsavelScreen';
+import LoginScreen from './screens/LoginScreen'
+import SolicitacoesProfessorScreen from './screens/SolicitacaoProfessorScreen';
 
 function App() {
   const [count, setCount] = useState(0)

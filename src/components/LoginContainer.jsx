@@ -69,7 +69,7 @@ const LoginContainer = () => {
             </div>
           </div>
 
-          <div className="formRow">
+          <div className="submitContainer">
             <input type="submit" value="ENTRAR" id="submit"/>
           </div>
         </form>
