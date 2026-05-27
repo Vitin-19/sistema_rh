@@ -1,4 +1,4 @@
-import SolicitacoesProfessorContainer from "../components/SolicitacaoProfessorContainer";
+import SolicitacoesProfessorContainer from "../components/SolicitacaoProfessorContainer"
 import "../App.css"
 
 const SolicitacoesProfessorScreen = () => {

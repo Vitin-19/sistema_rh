@@ -33,7 +33,7 @@ const SolicitacaoProfessorContainer = () => {
 
     return (
         <div>
-            <header className="titleProfessor">
+            <header className="tituloProfessor">
                 <h1>SUAS SOLICITAÇÕES</h1>
             </header>
 

@@ -1,11 +1,11 @@
-.tituloProfessor {
+.tituloTipo {
     font-family: var(--titleFont);
     font-size: 24px;
     margin: 20px 0;
     text-align: center;
 }
 
-.SolicitProfContainer {
+.TipoContainer {
     display:flex;
     flex-direction: column;
     width: 70vw;
