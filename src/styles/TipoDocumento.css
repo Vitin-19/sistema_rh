@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
 .tituloTipo {
     font-family: var(--titleFont);
     font-size: 24px;
@@ -5,28 +16,21 @@
     text-align: center;
 }
 
-.TipoContainer {
-    display:flex;
-    flex-direction: column;
+.TipoContainer1 {
+    display: flex;
     width: 70vw;
     align-items: center;
     padding: 20px 0;
-    height: 60vh;
-    overflow-y: auto;
+    height: 30vh;
 }
 
-.card-solicitacao {
-    background-color: #ffc067;
+.TipoContainer2 {
     display: flex;
-    border-radius: 10px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
-    justify-content: space-between;
-    margin-bottom: 40px;
-    padding: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    width: 75%;
-    flex-shrink: 0;
+    width: 70vw;
+    align-items: center;
+    padding: 20px 0;
+    padding-bottom: 20%;
+    height: 30vh;
 }
 
 .informacoes {
@@ -36,14 +40,33 @@
     width: 100%;
 }
 
-.container-botao {
+.container-botaoTipo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.container-voltar {
     width: 100%;
     display: flex;
     justify-content: center;
     padding: 20px 0;
 }
 
-.abrir-chamado {
+.botaoTipo {
+    background-color: #ffc067;
+    border: none;
+    border-radius: 8px;
+    padding: 30px 20px;
+    font-size: 14.6px;
+    cursor: pointer;
+    width: 250px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.125);
+}
+
+.voltar {
     background-color: #D21404;
     color: white;
     border: none;
@@ -52,5 +75,5 @@
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
-    width: 250px;
+    width: 200px;
 }

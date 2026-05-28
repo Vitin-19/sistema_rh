@@ -25,6 +25,13 @@ const listaSolicit = [
         status: "Rejeitado",
         documento: "Solicitação 1"
     },
+    {
+        id: 1,
+        professor: "Fulano",
+        disciplina: "Física",
+        status: "Aceito",
+        documento: "Solicitação 3"
+    },
 ];
 
 const SolicitacaoProfessorContainer = () => {

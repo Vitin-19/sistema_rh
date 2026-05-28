@@ -1,5 +1,6 @@
 @import "./styles/loginScreen.css";
 @import "./styles/SolicitacaoProfessorScreen.css";
+@import "./styles/TipoDocumento.css";
 
 .background{
     background-color: #FFD86E;

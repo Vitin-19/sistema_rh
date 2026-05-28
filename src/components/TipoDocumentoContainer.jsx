@@ -10,14 +10,28 @@ const TipoDocumentoContainer = () => {
                 <h1>TIPOS DE DOCUMENTO</h1>
             </header>
 
-            <section className="TipoContainer">
-                <div className="container-botao">
-                    <button className=""> Abrir chamado </button>
+            <section className="TipoContainer1">
+                <div className="container-botaoTipo">
+                    <button className="botaoTipo"> Declaração de Comparecimento </button>
+                </div>
+                <div className="container-botaoTipo">
+                    <button className="botaoTipo"> Declaração de Acúmulo </button>
+                </div>
+                <div className="container-botaoTipo">
+                    <button className="botaoTipo"> Vínculo Funcional </button>
+                </div>
+            </section>
+            <section className="TipoContainer2">
+                <div className="container-botaoTipo">
+                    <button className="botaoTipo"> Justificativa de Falta </button>
+                </div>
+                <div className="container-botaoTipo">
+                    <button className="botaoTipo"> Alteração de Atribuição </button>
                 </div>
             </section>
             
-            <div className="container-botao">
-                <button className="abrir-chamado"> Abrir chamado </button>
+            <div className="container-voltar">
+                <button className="voltar"> Voltar </button>
             </div>
         </div>
     );
