@@ -39,7 +39,7 @@ const SolicitacaoProfessorContainer = () => {
     const [solicitacoes, setSolicitacoes] = useState(listaSolicit);
 
     return (
-        <div>
+        <div className="page-wrapper">
             <header className="tituloProfessor">
                 <h1>SUAS SOLICITAÇÕES</h1>
             </header>
