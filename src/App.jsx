@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import './App.css'
 import LoginScreen from './screens/LoginScreen'
-import SolicitacoesProfessorScreen from './screens/SolicitacaoProfessorScreen';
+import SolicitacaoResponsavelScreen from './screens/SolicitacaoResponsavelScreen'
 import JustificativaFaltaScreen from './screens/JustificativaFaltaScreen';
 
 function App() {

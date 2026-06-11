@@ -1,4 +1,4 @@
-const SolicitacaoResponsavelCard = ({ professor,onApprove, onReject, onView }) => {
+const SolicitacaoResponsavelCard = ({ professor, disciplina }) => {
   return (
     <article className="card-solicitacao">
       <div className="informacoes">
@@ -6,17 +6,16 @@ const SolicitacaoResponsavelCard = ({ professor,onApprove, onReject, onView }) =
           <h2>Professor: </h2>
           <p>{professor}</p>
         </div>
-        <button className="button-view" onClick={onView}>
+        <button type="button" className="button-view">
           Visualizar
         </button>
-
       </div>
 
       <div className="card-actions">
-        <button className="button-approve" onClick={onApprove}>
+        <button type="button" className="button-approve">
           Aprovar
         </button>
-        <button className="button-reject" onClick={onReject}>
+        <button type="button" className="button-reject">
           Rejeitar
         </button>
       </div>

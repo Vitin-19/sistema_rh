@@ -1,6 +1,7 @@
 @import "./styles/loginScreen.css";
 @import "./styles/SolicitacaoResponsavelScreen.css";
 @import "./styles/SolicitacaoProfessorScreen.css";
+@import "./styles/JustificativaFalta.css";
 
 .background{
     background-color: #FFD86E;
