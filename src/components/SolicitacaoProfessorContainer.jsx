@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "../App.css";
 
 // exemplo de professor improvisado
@@ -37,6 +38,11 @@ const listaSolicit = [
 const SolicitacaoProfessorContainer = () => {
 
     const [solicitacoes, setSolicitacoes] = useState(listaSolicit);
+    const navigate = useNavigate();
+
+    const handleAbrirChamado = () => {
+        navigate("/tipodocumento");
+    };
 
     return (
         <div className="page-wrapper">
@@ -48,15 +54,24 @@ const SolicitacaoProfessorContainer = () => {
                 {solicitacoes.map((item) => (
                     <div key={item.id} className="card-solicitacao">
                         <div className="informacoes">
-                            <h2>Status: {item.status}</h2>
-                            <h2>Documento: {item.documento}</h2>
+                            <div className="documento-container">
+                                <span className="label">Documento: </span>
+                                <span className="documento-nome">{item.documento}</span>
+                            </div>
+
+                            <div className="status-container">
+                                <span className="label">Status:</span>
+                                <span className={`status-valor status-${item.status.toLowerCase()}`}>{item.status}</span>
+                            </div>
                         </div>
                     </div>
                 ))}
             </section>
             
             <div className="container-botao">
-                <button className="abrir-chamado"> Abrir chamado </button>
+                <button className="abrir-chamado" onClick={handleAbrirChamado}>
+                    Abrir chamado
+                </button>
             </div>
         </div>
     );

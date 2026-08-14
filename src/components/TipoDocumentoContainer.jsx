@@ -1,9 +1,17 @@
+import { useNavigate } from "react-router-dom";
+
 const TipoDocumentoContainer = () => {
+
+    const navigate = useNavigate();
+
+    const handleVoltar = () => {
+        navigate(-1);
+    };
 
     return (
         <div className="page-wrapper">
             <header className="tituloTipo">
-                <h1>TIPOS DE DOCUMENTO</h1>
+                <h1>TIPOS DE SOLICITAÇÕES</h1>
             </header>
 
             <div className="conteudo-central">
@@ -29,7 +37,9 @@ const TipoDocumentoContainer = () => {
             </div>
             
             <div className="container-voltar">
-                <button className="voltar"> Voltar </button>
+                <button className="voltar" onClick={handleVoltar}>
+                    Voltar
+                </button>
             </div>
         </div>
     );

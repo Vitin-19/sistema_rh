@@ -14,6 +14,7 @@ html, body, #root{
 
 :root {
   --titleFont: 'Inria Sans';
-  --textFont: 'Kokoro'
+  --textFont: 'Kokoro';
+  --text1Font: 'Inria Sans';
 }
 
