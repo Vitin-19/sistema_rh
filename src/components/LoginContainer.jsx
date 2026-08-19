@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "../App.css";
 
 const LoginContainer = () => {
@@ -7,10 +8,16 @@ const LoginContainer = () => {
   const [etecCode, setEtecCode] = useState();
   const [loginType, setLoginType] = useState("");
 
+  const navigate = useNavigate();
+
+  const handleLogar = () => {
+    navigate("/solicitacaoprofessor");
+  };
+
   return (
     <div className="loginContainer">
       <header className="title">
-        <h1>Login</h1>
+        <h1>LOGIN</h1>
       </header>
       <section 
         onChange={(lt) => setLoginType(lt.target.value)}
@@ -69,7 +76,9 @@ const LoginContainer = () => {
           </div>
 
           <div className="formRow">
-            <input type="submit" value="ENTRAR" id="submit"/>
+            <button className="loginButton" onClick={handleLogar}>
+                ENTRAR
+            </button>
           </div>
         </form>
       </section>

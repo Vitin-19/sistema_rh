@@ -33,6 +33,9 @@ const TipoDocumentoContainer = () => {
                     <div className="container-botaoTipo">
                         <button className="botaoTipo"> Alteração de Atribuição </button>
                     </div>
+                    <div className="container-botaoTipo">
+                        <button className="botaoTipo"> Declaração de Horário </button>
+                    </div>
                 </section>
             </div>
             

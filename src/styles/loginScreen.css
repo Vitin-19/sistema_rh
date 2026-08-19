@@ -1,5 +1,5 @@
 .loginContainer {
-  background-color: #ffc067;
+  background-color: #E6E6E6;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,6 +10,7 @@
 .title {
   font-family: var(--titleFont);
   font-size: 24px;
+  color: #004854;
 }
 
 .loginForm {
@@ -58,7 +59,7 @@
   background-size: 18px;
 
   border: none;
-  background-color: #d21404;
+  background-color: #B20000;
   color: #fff;
   font-family: var(--titleFont);
   font-size: 15px;
@@ -67,7 +68,7 @@
 }
 
 #submit{
-    background-color: #d21404;
+    background-color: #B20000;
     border: none;
     border-radius: 10px;
     height: 67px;
@@ -79,7 +80,7 @@
 }
 
 .footer{
-    background-color: #d21404;
+    background-color: #666666;
     display: flex;
     align-items: center;
     justify-content: center;
