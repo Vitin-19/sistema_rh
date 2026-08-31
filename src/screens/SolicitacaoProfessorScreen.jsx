@@ -1,5 +1,5 @@
-import SolicitacoesProfessorContainer from "../components/SolicitacaoProfessorContainer"
-import "../App.css"
+import SolicitacoesProfessorContainer from "../components/SolicitacaoProfessorContainer";
+import "../App.css";
 
 const SolicitacoesProfessorScreen = () => {
 

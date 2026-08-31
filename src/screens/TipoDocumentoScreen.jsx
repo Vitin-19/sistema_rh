@@ -1,5 +1,5 @@
 import TipoDocumentoContainer from "../components/TipoDocumentoContainer";
-import "../App.css"
+import "../App.css";
 
 const TipoDocumentoScreen = () => {
 

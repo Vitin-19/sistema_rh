@@ -14,6 +14,7 @@ function App() {
         <Route path='/' element={<LoginScreen/>}/>
         <Route path='/solicitacaoprofessor' element={<SolicitacaoProfessorScreen/>}/>
         <Route path='/tipodocumento' element={<TipoDocumentoScreen/>}/>
+        <Route path='/servicoprofessor' element={<ServicoProfessorScreen/>}/>
       </Routes>
     </BrowserRouter>
   )

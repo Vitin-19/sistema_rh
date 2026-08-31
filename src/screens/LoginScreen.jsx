@@ -1,5 +1,5 @@
 import LoginContainer from "../components/loginContainer";
-import "../App.css"
+import "../App.css";
 
 const LoginScreen = () => {
 
